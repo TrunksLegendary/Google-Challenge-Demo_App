@@ -43,3 +43,14 @@ Change directory to the cloned repo
 
 ## Start the server
 >npm run serve
+
+
+## configure FirewallD
+
+>sudo firewall-cmd --zone=public --add-port=8888/tcp --permanent
+
+>sudo firewall-cmd --zone=public --add-port=8889/tcp --permanent
+
+>sudo firewall-cmd --zone=public --add-service=http --permanent
+
+>sudo firewall-cmd --reload
