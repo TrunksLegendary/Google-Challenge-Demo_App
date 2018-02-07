@@ -21,7 +21,7 @@ I have a windows 10 workstaion
 
 ---
 ## Check Node.js version
->node --v
+>node --version
 
 
 ## Setup Git repo and Pull from 
@@ -30,6 +30,7 @@ I have a windows 10 workstaion
 >git init
 
 >git pull https://github.com/jakearchibald/wittr
+
 
 >git pull https://github.com/TrunksLegendary/Google-Challenge-Demo_App---->
 
